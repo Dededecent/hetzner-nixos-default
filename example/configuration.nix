@@ -10,20 +10,6 @@
      pkgs.git
    ];
    
-   fileSystems."/" = {
-     device = "/dev/disk/by-label/nixos";
-     fsType = "ext4";
-   };
-   fileSystems."/boot" = {
-     device = "/dev/disk/by-label/boot";
-     fsType = "ext4";
-   };
-   swapDevices = [
-     {
-       device = "/dev/disk/by-label/swap";
-     }
-   ];
-   
    time.timeZone = "US/Pacific";
    i18n.defaultLocale = "en_US.UTF-8";
    console.keyMap = "us";
