@@ -25,6 +25,7 @@
        extraGroups = [ "wheel" ];
        openssh.authorizedKeys.keys = [
          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB/Hlz/fRZhuNtB6cLBsvG2qF+fMnv3+CqHFcvCBfxrT"
+         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAcy5NbJH5f8EAqR/4B/+Uhtoh8i/sS1vjA3GQSr6lV"
        ];
      };
    };
